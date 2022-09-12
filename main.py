@@ -1,4 +1,4 @@
-#これはコメント
+print('Hello, world!')
+print(1 + 2)
 
-print(10)
-
+# pyhton環境構築中
