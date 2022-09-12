@@ -1,4 +1,5 @@
-print('Hello, world!')
-print(1 + 2)
+# test
+print("あなたの名前は？", end="")
+name = input()
 
-# pyhton環境構築中
+print("おはよう！ %s" %name)
