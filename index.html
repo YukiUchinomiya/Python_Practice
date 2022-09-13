@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>React</title>
+</head>
+<body>
+
+    <div id="root"></div>
+    <script type="text/babel">
+        (() => {
+
+            class Counter extends React.Component{
+                render(){
+                    let count = 0
+
+                    return(
+                        <li style={{backgroundColor:this.props.color}}>{count}</li>
+                    )
+                }
+            }
+
+            ReactDOM.render(
+            <div className="container">
+                <ul>
+                    <Counter color="red"/>
+                    <Counter color="skyblue"/>
+                    <Counter color="green"/>
+                    <Counter color="yellow"/>
+                </ul>
+            </div>,
+            document.getElementById('root')
+        )
+        })()
+    </script>
+
+    <!-- <h2>ボタン押しな！</h2>
+    <div id="like_button_container"></div> -->
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
