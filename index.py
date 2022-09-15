@@ -1,5 +1,11 @@
-# test
-print("あなたの名前は？", end="")
-name = input()
+initial_balance = 10000
+rate = 1.1
+print(initial_balance)
+print(initial_balance * rate)
+print(initial_balance * rate * rate)
 
-print("おはよう！ %s" %name)
+initial_balance += 1000
+rate = 1.1
+print(initial_balance)
+print(initial_balance * rate)
+print(initial_balance * rate * rate)
