@@ -1,38 +1,23 @@
-# initial_balance = 10000
-# rate = 1.1
-# print(initial_balance)
-# print(initial_balance * rate)
-# print(initial_balance * rate * rate)
+# filename = "index.txt"
+# lists = ["たなぁ","佐藤","橋本"]
 
-# initial_balance += 1000
-# rate = 1.1
-# print(initial_balance)
-# print(initial_balance * rate)
-# print(initial_balance * rate * rate)
+# with open(filename,mode="w") as f:
+#     for list in lists:
+#         f.write(f"{list}\n")
+
+posts = [
+    {"text":"hello","likees":3},
+    {"text":"llo","likees":1},
+    ]
+
+print(posts)
+# status = {}
+
+# for result in results:
+#     if result not in status:
+#         status[result] = 0
+#     status[result] += 1
+
+# print(status)
 
 
-# fname = "田中"
-# lname = "太郎"
-# age = 25
-
-# print(f"{fname} {lname} は {age} 歳です")
-
-# num = input("番号は？")
-# print(type(num))
-# print(int(num) *2)
-
-# 条件分岐
-# signal = input("信号の色は？")
-
-# match signal:
-#     case "red":
-#         print("止まれ！")
-#     case "green" | "blue":
-#         print("進め！")
-#     case "yellow":
-#         print("気をつけろ！")
-#     case _:
-#         print("どの色にも当てはまりません")
-
-for i in range(3,9,2):
-    print(f"{i}おはよう！")

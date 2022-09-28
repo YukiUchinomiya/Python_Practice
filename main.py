@@ -29,4 +29,8 @@
 
 # print(score)
 
-print(random)
+import random as ram
+import datetime
+import calendar
+
+print(calendar.month(2022,9))
