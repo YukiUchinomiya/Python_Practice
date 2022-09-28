@@ -12,14 +12,21 @@
 
 # print(duble(10))
 
-def double(n):
-    return n * 2
+# def double(n):
+#     return n * 2
 
-def triple(n):
-    return n *3
+# def triple(n):
+#     return n *3
 
-def calc(n,func):
-    return func(n)
+# def calc(n,func):
+#     return func(n)
 
-print(calc(20,lambda n: n * 35 ))
+# print(calc(20,lambda n: n * 35 ))
 
+# from random import random
+
+# score = [50,60,70,80,700]
+
+# print(score)
+
+print(random)
