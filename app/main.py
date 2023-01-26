@@ -65,3 +65,13 @@ print(is_start)
 
 a = ' this is pen'
 print(f'yuki{a}')
+
+kaiin = input('あなたは会員ですか？：')
+age = input('あなたは何歳ですか？')
+int_age= int(age)
+
+if (kaiin == '会員') & (int_age >= 18):
+    praice = 50000
+else:
+    praice = 10000
+print('あなた支払う金額は',praice,'です。')
