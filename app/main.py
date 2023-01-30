@@ -54,24 +54,33 @@ import calendar
 #     西山
 #     """)
 
-print('yuki\n' * 3)
+# print('yuki\n' * 3)
 
-word = 'python'
-print(word[0:4])
+# word = 'python'
+# print(word[0:4])
 
-str = 'hello!!yukiuchinomiya'
-is_start = str.startswith('he')
-print(is_start)
+# str = 'hello!!yukiuchinomiya'
+# is_start = str.startswith('he')
+# print(is_start)
 
-a = ' this is pen'
-print(f'yuki{a}')
+# a = ' this is pen'
+# print(f'yuki{a}')
 
-kaiin = input('あなたは会員ですか？：')
-age = input('あなたは何歳ですか？')
-int_age= int(age)
+# kaiin = input('あなたは会員ですか？：')
+# age = input('あなたは何歳ですか？')
+# int_age= int(age)
 
-if (kaiin == '会員') & (int_age >= 18):
-    praice = 50000
-else:
-    praice = 10000
-print('あなた支払う金額は',praice,'です。')
+# if (kaiin == '会員') & (int_age >= 18):
+#     praice = 50000
+# else:
+#     praice = 10000
+# print('あなた支払う金額は',praice,'です。')
+
+lists = ['りんご','バナナ','葡萄','メロン',]
+print(lists)
+lists[0] = 'いちご'
+print(lists)
+
+s = 'こんにちは 太郎です おおお'
+to = s.split(' ')
+print(to)
