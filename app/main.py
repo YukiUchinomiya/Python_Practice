@@ -76,11 +76,16 @@ import calendar
 #     praice = 10000
 # print('あなた支払う金額は',praice,'です。')
 
-lists = ['りんご','バナナ','葡萄','メロン',]
-print(lists)
-lists[0] = 'いちご'
-print(lists)
+# lists = ['りんご','バナナ','葡萄','メロン',]
+# print(lists)
+# lists[0] = 'いちご'
+# print(lists)
 
-s = 'こんにちは 太郎です おおお'
-to = s.split(' ')
-print(to)
+# s = 'こんにちは 太郎です おおお'
+# to = s.split(' ')
+# print(to)
+
+tup = (1,2,3,4,5)
+t = type(tup)
+print(tup)
+print(t)
