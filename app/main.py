@@ -87,5 +87,8 @@ import calendar
 
 tup = (1,2,3,4,5)
 t = type(tup)
-print(tup)
-print(t)
+# print(tup)
+# print(t)
+
+for list in tup:
+    print(list)
