@@ -86,9 +86,13 @@ import calendar
 # print(to)
 
 tup = (1,2,3,4,5)
-t = type(tup)
+tmp_tup = (9,8,7,6)
+n = tup + tmp_tup
+print(n)
 # print(tup)
 # print(t)
 
 for list in tup:
     print(list)
+
+#
