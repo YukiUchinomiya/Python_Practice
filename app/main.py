@@ -85,14 +85,17 @@ import calendar
 # to = s.split(' ')
 # print(to)
 
-tup = (1,2,3,4,5)
-tmp_tup = (9,8,7,6)
-n = tup + tmp_tup
-print(n)
-# print(tup)
-# print(t)
+# tup = (1,2,3,4,5)
+# tmp_tup = (9,8,7,6)
+# n = tup + tmp_tup
+# print(n)
+# # print(tup)
+# # print(t)
 
-for list in tup:
-    print(list)
+# for list in tup:
+#     print(list)
 
-#
+number = -10
+
+if number < 5:
+    print('この数値は５以下です')
