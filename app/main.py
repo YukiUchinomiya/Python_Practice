@@ -95,10 +95,47 @@ import calendar
 # for list in tup:
 #     print(list)
 
-number = -10
+# number = -10
 
-if number < 5:
-    print('この数値は５以下です')
+# if number < 5:
+#     print('この数値は５以下です')
 
 # flask環境構築
 #test
+
+def menu(food='banana', drink='cola'):
+    print('food=',food)
+    print('drink=',drink)
+
+menu('apple','sake')
+
+def al(*args):
+    print(args)
+al('stokan','stokan2','stokan3')
+
+def all(**kwargs):
+    print(kwargs)
+all(sa='koko',sss='jijiij')
+
+"""キーワード引数"""
+def menu(entree, drink, dessert):
+    print('entree = ', entree)
+    print('drink = ', drink)
+    print('dessert = ', dessert)
+
+menu(entree='beef', dessert='ice', drink='beer')
+
+def anaunce_init(anaunce_title,anaunce_text):
+    """お知らせ初期表示
+
+    Args:
+        anaunce_title (str): お知らせタイトル
+        anaunce_text (str): お知らせ本文
+
+    Returns;
+        登録されているタイトルと本文を表示
+    """
+    print(anaunce_title)
+    print(anaunce_text)
+
+anaunce_init('新発売','ビール')
