@@ -139,3 +139,5 @@ def anaunce_init(anaunce_title,anaunce_text):
     print(anaunce_text)
 
 anaunce_init('新発売','ビール')
+
+print('test')
